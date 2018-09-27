@@ -44,3 +44,15 @@ Fizz
 Fizz
 Buzz
 """
+L = range(101)
+3 = fizz
+5 = buzz
+for x in L:
+    if x % fizz == 0:
+        print("Fizz")
+    elif x % buzz == 0:
+        print("Buzz")
+
+
+
+print(list(L))
