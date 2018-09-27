@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
 Author: Jackson Lake
-Credit: Classroom help
+Credit: Segment of video >https://www.youtube.com/watch?v=FRVhHtRW3pY< to fix small problem
 
 Assignment:
 
@@ -44,15 +44,15 @@ Fizz
 Fizz
 Buzz
 """
-L = range(101)
-3 = fizz
-5 = buzz
-for x in L:
-    if x % fizz == 0:
+n = int(input("How many numbers shall we print? "))
+f = int(input("For multiples of what number shall we print 'Fizz'? "))
+b = int(input("For multiples of what number shall we print 'Buzz'? "))
+for x in range(1, n):
+    if x % f == 0 and x % b == 0:
+        print("FizzBuzz")
+    elif x % f == 0:
         print("Fizz")
-    elif x % buzz == 0:
+    elif x % b == 0:
         print("Buzz")
-
-
-
-print(list(L))
+    else:
+        print(x)
