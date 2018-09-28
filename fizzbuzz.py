@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
 Author: Jackson Lake
-Credit: Segment of video >https://www.youtube.com/watch?v=FRVhHtRW3pY< to fix small problem
+Credit: Segment of video https://www.youtube.com/watch?v=FRVhHtRW3pY to fix small problem
 
 Assignment:
 
